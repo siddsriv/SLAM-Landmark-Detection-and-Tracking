@@ -1,2 +1,3 @@
-# SLAM-Landmark-Detection-and-Tracking-
-Simultaneous localization and mapping 
+# Landmark Detection and Tracking (SLAM)
+
+## Overview
