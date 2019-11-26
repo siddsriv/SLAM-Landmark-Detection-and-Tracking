@@ -20,7 +20,7 @@ To perform SLAM, we'll collect a series of robot sensor measurements and motions
 
 ### Omega, Xi and constraints <br/>
 Matrix representation of Omega and Xi respectively: <br/>
-<img src='images/omega1.png' width=50% height=50%/> <br/>
+<img src='images/omega1.png' width=80% height=80%/> <br/>
 <br/>
 Poses as constraints filled in the matrix (example): <br/>
 <img src='images/omega2.png' width=50% height=50%/> <br/>
@@ -29,5 +29,5 @@ See notebook: ```2. Omega and Xi, Constraints``` for a detailed explanation. <br
 
 ## Instructions to run
 1. ```git clone https://github.com/srivastava41099/SLAM-Landmark-Detection-and-Tracking.git```
-2. Open terminal and type: ```jupyter notebook``` (make sure you've already installed jupyter notebook first)
+2. Open terminal and type: ```jupyter notebook``` (make sure you've already installed jupyter notebook)
 3. Navigate to the 'SLAM-Landmark-Detection-and-Tracking' folder and browse through the notebooks/files.
