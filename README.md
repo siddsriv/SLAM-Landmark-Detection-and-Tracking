@@ -8,10 +8,10 @@ Below is an example of a 2D robot world with landmarks (purple x's) and the robo
 <img src='images/index.png' width=50% height=50%/>
 <br/>
 ## Files
-```1. Robot Moving and Sensing.ipynb``` : Define and visualize the world (environment)
-```2. Omega and Xi, Constraints``` : Constraints and solving (linear algebra)
-```3. Landmark Detection and Tracking``` : SLAM implementation 
-```robot_class.py``` : Robot class definition
+```1. Robot Moving and Sensing.ipynb``` : Define and visualize the world (environment) <br/>
+```2. Omega and Xi, Constraints``` : Constraints and solving (linear algebra) <br/>
+```3. Landmark Detection and Tracking``` : SLAM implementation <br/>
+```robot_class.py``` : Robot class definition <br/>
 <br/>
 ## Key concepts: <br/>
 ### Uncertainty <br/>
@@ -19,13 +19,13 @@ Robot motion and sensors have some uncertainty associated with them. For example
 To perform SLAM, we'll collect a series of robot sensor measurements and motions (with some noise; accounting for uncertainty), in that order, over a defined period of time. Then we'll use only this data to re-construct the map of the world with the robot and landmark locations. 
 
 ### Omega, Xi and constraints <br/>
-Matrix representation of Omega and Xi respectively:
+Matrix representation of Omega and Xi respectively: <br/>
 <img src='images/omega1.png' width=50% height=50%/> <br/>
 <br/>
-Poses as constraints filled in the matrix (example):
+Poses as constraints filled in the matrix (example): <br/>
 <img src='images/omega2.png' width=50% height=50%/> <br/>
 <br/>
-See notebook: ```2. Omega and Xi, Constraints``` for a detailed explanation.
+See notebook: ```2. Omega and Xi, Constraints``` for a detailed explanation. <br/>
 
 ## Instructions to run
 1. ```git clone https://github.com/srivastava41099/SLAM-Landmark-Detection-and-Tracking.git```
