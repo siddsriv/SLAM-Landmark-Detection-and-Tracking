@@ -10,10 +10,10 @@ Below is an example of a 2D robot world with landmarks (purple x's) and the robo
 ## Files
 ```moving_and_sensing.ipynb``` : Define and visualize the world (environment) <br/>
 ```Omega_and_Xi``` : Constraints and solving (linear algebra) <br/>
-```_Landmark_Detection_and_Tracking``` : SLAM implementation <br/>
+```Landmark_Detection_and_Tracking``` : SLAM implementation <br/>
 ```robot_class.py``` : Robot class definition <br/>
 <br/>
-## Key concepts: <br/>
+## Key concepts to accommodate or use: <br/>
 ### Uncertainty <br/>
 Robot motion and sensors have some uncertainty associated with them. For example, imagine a car driving up hill and down hill; the speedometer reading will likely overestimate the speed of the car going up hill and underestimate the speed of the car going down hill because it cannot perfectly account for gravity. Similarly, we cannot perfectly predict the motion of a robot. A robot is likely to slightly overshoot or undershoot a target location. <br/>
 To perform SLAM, we'll collect a series of robot sensor measurements and motions (with some noise; accounting for uncertainty), in that order, over a defined period of time. Then we'll use only this data to re-construct the map of the world with the robot and landmark locations. 
