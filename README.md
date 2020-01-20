@@ -28,6 +28,6 @@ Poses as constraints filled in the matrix (example): <br/>
 See notebook: ```Omega_and_Xi``` for a detailed explanation. <br/>
 
 ## Instructions to run
-1. ```git clone https://github.com/srivastava41099/SLAM-Landmark-Detection-and-Tracking.git```
+1. Type ```git clone https://github.com/siddsrivastava/SLAM-Landmark-Detection-and-Tracking.git``` in your Git bash (Terminal)
 2. Open terminal and type: ```jupyter notebook``` (make sure you've already installed jupyter notebook)
 3. Navigate to the 'SLAM-Landmark-Detection-and-Tracking' folder and browse through the notebooks/files.
