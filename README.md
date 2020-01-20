@@ -8,9 +8,9 @@ Below is an example of a 2D robot world with landmarks (purple x's) and the robo
 <img src='images/index.png' width=50% height=50%/>
 <br/>
 ## Files
-```1. Robot Moving and Sensing.ipynb``` : Define and visualize the world (environment) <br/>
-```2. Omega and Xi, Constraints``` : Constraints and solving (linear algebra) <br/>
-```3. Landmark Detection and Tracking``` : SLAM implementation <br/>
+```moving_and_sensing.ipynb``` : Define and visualize the world (environment) <br/>
+```Omega_and_Xi``` : Constraints and solving (linear algebra) <br/>
+```_Landmark_Detection_and_Tracking``` : SLAM implementation <br/>
 ```robot_class.py``` : Robot class definition <br/>
 <br/>
 ## Key concepts: <br/>
@@ -25,7 +25,7 @@ Matrix representation of Omega and Xi respectively: <br/>
 Poses as constraints filled in the matrix (example): <br/>
 <img src='images/omega2.png' width=50% height=50%/> <br/>
 <br/>
-See notebook: ```2. Omega and Xi, Constraints``` for a detailed explanation. <br/>
+See notebook: ```Omega_and_Xi``` for a detailed explanation. <br/>
 
 ## Instructions to run
 1. ```git clone https://github.com/srivastava41099/SLAM-Landmark-Detection-and-Tracking.git```
